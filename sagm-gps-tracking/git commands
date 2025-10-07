@@ -1,0 +1,11 @@
+# Clone repository
+git clone https://github.com/username/sagm-gps-tracking.git
+
+# Copy file ke folder
+cp -r your-local-folder/* sagm-gps-tracking/
+
+# Upload
+cd sagm-gps-tracking
+git add .
+git commit -m "Deploy GPS Tracking System"
+git push
